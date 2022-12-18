@@ -110,7 +110,7 @@ calculator span:active {
   border-bottom: 1px solid #fff4;
   border-top: 1px solid #fff4;
 }
-@media (max-width: 1000px) {
+@media (max-width: 790px) {
   body {
     max-width: 410px;
     max-height: 200px;
@@ -126,5 +126,23 @@ calculator span:active {
   }
   .calculator {
     left: -10px;
+  }
+}
+@media (max-width: 477px) {
+  body {
+    max-width: 520px;
+    max-height: 200px;
+    background-size: cover;
+  }
+  .container {
+    min-width: 50px;
+    min-height: 50px;
+  }
+  .calculator .value {
+    left: -5px;
+    height: 70px;
+  }
+  .calculator {
+    left: -2px;
   }
 }
